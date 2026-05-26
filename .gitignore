@@ -1,3 +1,5 @@
 ﻿vendor/
 composer.lock
+autoload.php
+test.php
 .env
