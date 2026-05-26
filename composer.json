@@ -1,0 +1,21 @@
+{
+    "name": "surjowallet/php-sdk",
+    "description": "Surjo Wallet PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akash Mahmud"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SurjoWallet\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*"
+    }
+}
